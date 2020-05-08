@@ -1,0 +1,135 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.left {
+  padding: 90px 70px;
+}
+
+h1 {
+  color: white;
+  font-size: 3.1rem;
+  padding-top: 30px;
+  width: 73%;
+}
+
+.left-p {
+  color: white;
+  font-size: 1.1rem;
+  padding-bottom: 70px;
+}
+
+.container {
+  background: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+}
+
+.box {
+  flex: 1;
+}
+
+.right {
+  display: flex;
+  flex-flow: column;
+}
+
+.rbox {
+  display: flex;
+  flex-flow: column;
+}
+
+.info {
+  box-shadow: 0 5px 0 0 #935A5A;
+  -webkit-box-shadow: 0 5px 0 0 #935A5A;
+  -moz-box-shadow: 0 5px 0 0 #935A5A;
+  border-radius: 10px;
+  background-color: white;
+  width: 85%;
+  height: 80%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bt {
+  padding-bottom: 30px;
+}
+
+.bt-try {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #6055A5;
+  box-shadow: 0 5px 0 0 #935A5A;
+  -webkit-box-shadow: 0 5px 0 0 #935A5A;
+  -moz-box-shadow: 0 5px 0 0 #935A5A;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border-style: none;
+  width: 85%;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+input {
+  margin: 11px 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  border: solid 1px hsl(246, 25%, 77%);
+  border-radius: 10px;
+  padding: 16px 230px 16px 20px;
+}
+
+.bt-claim {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: hsl(154, 59%, 51%);
+  box-shadow: 0 5px 0 0 hsl(154, 59%, 40%);
+  -webkit-box-shadow: 0 5px 0 0 hsl(154, 59%, 40%);
+  -moz-box-shadow: 0 5px 0 0 hsl(154, 59%, 40%);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  border-style: none;
+  width: 91%;
+  margin-top: 15px;
+}
+
+.right-p {
+  color: hsl(246, 25%, 77%);
+  font-size: .7rem;
+  padding-top: 10px;
+}
+
+.red {
+  color: hsl(0, 100%, 74%);
+  font-weight: bolder;
+}
